@@ -95,9 +95,34 @@ header {
     padding-bottom: 20px;
   }
 
-  .first-section {
+  .bg-grey {
+    background-color: #d3d3d3;
+  }
+
+  .row {
     display: flex;
-    color: black;
+    padding-top: 30px;
+  }
+  
+  .col-large, .col-small {
+    min-height: 450px;
+  }
+  
+  .col-large {
+    width: 65%;
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .col-small {
+    width: 25%;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+
+  .row-text {
+    padding-top: 20px;
   }
 
 
