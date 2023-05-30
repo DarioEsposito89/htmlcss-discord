@@ -62,3 +62,15 @@ header {
     background-color: #23272a;
     color: white;
 }
+
+.hero-section {
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+    padding: 2rem 0;
+  }
+  
+  .hero-section .container {
+    max-width: 680px;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
