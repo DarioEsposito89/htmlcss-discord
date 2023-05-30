@@ -46,6 +46,10 @@ header {
     text-decoration: none;
   }
 
+  .col a {
+    color: white;
+  }
+
   .link-nav {
     color: white;
     padding-left: .7rem;
@@ -151,37 +155,32 @@ header {
   }
 
   .col-large, .col-small {
-  border: 1px dashed black;
   min-height: 300px;
 }
 
   
 .col-large {
   width: 60%;
-  background-color: #1e90ff;
 }
 
 .col-small {
   width: 40%;
-  background-color: #ffc0cb;
 }
 
 footer .col {
-    border: 1px dashed white;
     flex-grow: 1;
-    background-color: #20b2aa;
     min-height: 300px;
+    font-size: small;
   }
   
   footer .col-large {
-    width: 15%;
-    background-color: #f08080;
-    border-color: black;
+    width: 10%;
   }
 
   .footer-lan {
     color: white;
     font-size: small;
+    line-height: 30px;
     
   }
 
@@ -198,10 +197,17 @@ footer .col {
     color: #4270d9;
   }
 
-  #social-icon {
-    
-
+  .col ul {
+    color: white;
+    list-style: none;
+    line-height: 30px;
+    padding-left: 20px;
   }
 
+  .list-title {
+    color: #4270d9;
+  }
+
+  
 
 
