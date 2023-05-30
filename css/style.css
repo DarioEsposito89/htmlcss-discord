@@ -108,11 +108,6 @@ header {
     display: flex;
   }
 
-  .wave {
-    filter: invert(0.95);
-    align-self: flex-end;
-    width: 100%;
-  }
 
   .bg-gray {
     background-color: #f6f6f6;
