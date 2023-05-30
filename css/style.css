@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: #add8e6;
+    background-color: #255ee9;
     padding-top: 1rem;
     padding-bottom: 4px;
   }
@@ -67,10 +67,21 @@ header {
     background-image:url(../img/jumbo.png);
     background-size: cover;
     padding: 2rem 0;
+   
   }
   
   .hero-section .container {
-    max-width: 680px;
+    max-width: 620px;
     border: 1px dashed black;
-    min-height: 300px;
+    min-height: 450px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 140px;
+    color: white;
   }
+
+  h1 {
+    padding-bottom: 1rem;
+  }
+
+  
