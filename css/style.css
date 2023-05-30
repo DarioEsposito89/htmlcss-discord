@@ -127,4 +127,22 @@ header {
     padding-top: 20px;
   }
 
+  .big-box {
+    text-align: center;
+  }
+
+
+  h3 {
+    margin: auto;
+    max-width: 400px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+  }
+
+  .button-stars{
+    padding-top: 20px;
+  }
+
 
