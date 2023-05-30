@@ -21,3 +21,15 @@ header {
   header nav .nav-container {
     display: flex;
   }
+
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding-left: .7rem;
+  }
