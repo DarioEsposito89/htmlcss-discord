@@ -69,6 +69,11 @@ header {
     color: white;
 }
 
+.btn-violet {
+    background-color: #7289da;
+    color: white;
+}
+
 .hero-section {
     background-image:url(../img/jumbo.png);
     background-size: cover;
@@ -95,8 +100,8 @@ header {
     padding-bottom: 20px;
   }
 
-  .bg-grey {
-    background-color: #d3d3d3;
+  .bg-gray {
+    background-color: #f6f6f6;
   }
 
   .row {
@@ -110,9 +115,6 @@ header {
   
   .col-large {
     width: 65%;
-    background-image: url(../img/item1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
   .col-small {
