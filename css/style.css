@@ -11,7 +11,6 @@
 header {
     background-color: #255ee9;
     padding-top: 1rem;
-    padding-bottom: 4px;
   }
 
   .container {
@@ -70,11 +69,13 @@ header {
 
 .btn-dark {
     background-color: #23272a;
-    color: white;
 }
 
 .btn-violet {
     background-color: #7289da;
+}
+
+.btn-violet a, .btn-dark a {
     color: white;
 }
 
@@ -87,7 +88,6 @@ header {
   
   .hero-section .container {
     max-width: 620px;
-    border: 1px dashed black;
     min-height: 450px;
     text-align: center;
     line-height: 30px;
@@ -102,6 +102,22 @@ header {
 
   .hero-text {
     padding-bottom: 20px;
+  }
+
+  .hero-buttons {
+    display: flex;
+  }
+
+  .wave {
+    filter: invert(0.95);
+    align-self: flex-end;
+    width: 100%;
+  }
+
+  .wave2 {
+    filter: invert(0.95);
+    align-self: flex-end;
+    width: 100%;
   }
 
   .bg-gray {
@@ -122,13 +138,14 @@ header {
   }
   
   .col-large {
-    width: 65%;
+    max-width: 60%;
   }
   
   .col-small {
-    width: 25%;
+    max-width: 40%;
+    padding-left: 50px;
     padding-top: 40px;
-    padding-left: 30px;
+    
   }
 
   .row-text {
@@ -207,6 +224,18 @@ footer .col {
   .list-title {
     color: #4270d9;
   }
+
+  .sign-in-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo-footer, .button-footer {
+    align-items: baseline;
+    text-align: center;
+    align-self: center;
+}
 
   
 
