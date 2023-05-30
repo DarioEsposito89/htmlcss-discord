@@ -23,7 +23,7 @@ header {
     margin-bottom: 1rem;
   }
 
-  header nav .nav-container {
+  header nav .container {
     display: flex;
   }
 
