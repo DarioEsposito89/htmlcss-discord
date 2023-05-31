@@ -31,6 +31,17 @@ header {
     padding-bottom: 2rem;
   }
 
+  .wave-1hkxOo {
+    color: #f6f6f6;
+    margin: -5px;
+  }
+
+  .wave-2hkxOo {
+    color: #f6f6f6;
+    margin: -5px;
+    transform: rotate(180deg);
+  }
+
   .nav-links{
     flex-grow: 1;
   }
