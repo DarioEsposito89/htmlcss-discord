@@ -157,11 +157,12 @@ header {
 
   .h3-stars {
     margin: auto;
-    max-width: 400px;
+    max-width: 450px;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 30px;
+    color: black;
   }
 
   .button-stars{
